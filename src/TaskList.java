@@ -1,3 +1,6 @@
+/*
+ * Autores: Gustavo Soares e Vinicius Forte 
+ */
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,3 +1,6 @@
+/*
+ * Autores: Gustavo Soares e Vinicius Forte 
+ */
 
 import java.awt.EventQueue;
 import java.awt.Font;
@@ -118,7 +121,7 @@ public class Tela_Principal extends JFrame {
 			}
 		});
 		TasksTable.setModel(new DefaultTableModel(new Object[][] {},
-				new String[] { "Task ID", "PageFault Count", "WorkingSet Size", "PageFile Usage" }));
+				new String[] { "PID", "PageFault Count", "WorkingSet Size", "PageFile Usage" }));
 		scrollPane_TasksTable.setViewportView(TasksTable);
 
 		update = new UpdateInfos();

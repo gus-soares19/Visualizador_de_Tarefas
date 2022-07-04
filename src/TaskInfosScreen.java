@@ -1,3 +1,7 @@
+/*
+ * Autores: Gustavo Soares e Vinicius Forte 
+ */
+
 import java.awt.EventQueue;
 import java.awt.Font;
 
@@ -67,7 +71,7 @@ public class TaskInfosScreen extends JFrame {
 
 	public void setTask(Task task) {
 		this.task = task;
-		lblNewLabel.setText(task.getName().split("\\.")[0] + " (id: " + task.getId() + ")");
+		lblNewLabel.setText(task.getName().split("\\.")[0] + " (PID: " + task.getId() + ")");
 
 		DefaultTableModel model = (DefaultTableModel) TaskInfosTable.getModel();
 
